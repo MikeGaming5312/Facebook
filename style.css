@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=New+Tegomin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 45px;
+    width: 90px;
+    height: 100px;
+    border-radius: 0 0 50px 50px;
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    padding: 10px;
+    background-image: linear-gradient(rgba(86,84,122,0.9)0%, rgba(135,135,204,0.9)30%,
+    rgba(214,214,235,0.9) 50%,
+    rgba(86,84,122,0.9) 100%);
+    
+}
+ul{
+    height: 100px;
+    width: 100%;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    margin:10px;
+    
+}
+a{
+    width: 200px;
+    height: 80px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 12px;
+    
+}
+.sriftas{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: rebeccapurple;
+    
+    
+}
+main{
+    height: auto;
+    text-align: center;
+}
+h1{ 
+    padding: 30px;
+    margin: 20px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+p{ 
+   line-height: 1.5  ;
+    vertical-align: top;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2em;
+    text-align: justify;
+    padding: 10px;
+    height: auto;
+    font-size: 18px;
+}
+.tekstas{ 
+    height: auto;
+    width: 60%;
+    margin: 25px;
+    vertical-align: top;
+    display: inline-block;
+}
+.facebook{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin: 25px;
+    
+}
+footer{
+    height: auto;
+    background-image: linear-gradient(rgba(86,84,122,0.9)0%, rgba(135,135,204,0.9)30%,
+    rgba(214,214,235,0.9) 50%,
+    rgba(86,84,122,0.9) 100%);
+    text-align: center;
+}
+
+footer iframe{
+    box-shadow: 5px 5px 10px grey;
+}
+@media only screen and (max-width:850px){
+    body{
+        
+    }
+    .facebook{
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
+@media only screen and (max-width:912px){
+    li{
+        width: 130px;
+        display: block;
+        width: 100%;
+    }
+    a{
+        width: 100%;
+        display: block;
+    }
+    nav, ul{
+        height: auto;
+        padding-top: 10px;
+    }
+    .sriftas{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+    body{
+        
+    }
+    .tekstas{
+        width: 90%;
+    }
+}
